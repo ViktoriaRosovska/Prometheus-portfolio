@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="container nav-container">
+        <ul class="nav-container-list">
+          <li><a href="#about-me">Про мене</a></li>
+          <li><a href="#mini-game">Міні-гра "Хрестики-нулики"</a></li>
+          <li><a href="#gallery">Галерея</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="about-me" id="about-me">
+        <div class="container hero-container">
+          <h1 class="section-title">Про мене</h1>
+          <div class="hero-content">
+            <p class="hero-paragraph">
+              Привіт. Мене звати Вікторія. Я Junior Frontend Developer. Ця сторінка створена на курсі
+              <a href="https://prometheus.org.ua/">Prometheus</a>
+              "Frontend. Базовий курс від Ciklum" щоб закріпити отримані знання з HTML, CSS та JS.
+            </p>
+            <div class="image-wrapper">
+              <img src="./image/photo_2023.jpg" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mini-game" id="mini-game">
+        <div class="container container-aboutgame">
+          <h2 class="section-title">Про міні-гру "Хрестики-нулики"</h2>
+          <p class="paragraph">
+            <strong>Хрестики-нулики</strong> (англ. <i>tic-tac-toe</i>) — гра на папері для двох гравців. На кожному
+            ході гравці мають ставити O чи X на ґратці розміром 3 на 3. Гравець, який першим поставив три однакових
+            знаки в горизонтальному, вертикальному чи діагональному ряду, виграє партію.
+          </p>
+          <h3 class="title">Історія</h3>
+
+          <details>
+            <p class="paragraph">
+              <summary>
+                В ранній варіант хрестиків-нуликів грали в Римській імперії, приблизно в першому столітті до нашої ери
+                під назвою «Terni Lapilli» (Терні Лапілі). Гра мала відмінності: замість того, щоб мати будь-яку
+                кількість знаків, у кожного гравця було всього три, таким чином, вони повинні були переміщувати їх у
+                порожньому просторі, щоб продовжувати грати. Сітки з маркованною крейдяною грою були знайдені по всьому
+                Риму. Однак, за словами Клаудії Заславської, за її книгою Tic Tac Toe: And Other Three-In-A Row Games
+                from Ancient Egypt to the Modern Computer («Хрестики-нулики: та інші ігри три-в-ряд від стародавнього
+                Єгипту до сучасного комп'ютера»), хрестики-нулики могли виникнути ще в Стародавньому Єгипті. Інша тісно
+                пов'язана стародавня гра — Three Men's Morris, в яку також грали на простій сітці і, яка вимагає три
+                знаки в ряд, щоб закінчити. Різні назви гри з'явилися недавно.
+              </summary>
+            </p>
+
+            <p class="paragraph">
+              Перша згадка в пресі британської назви «Noughts and crosses» з'явилася в 1864 році. У своєму романі «Can
+              You Forgive Her» Ентоні Троллоп вказує на клерка, який грає в «tit-tat-toe». Перша згадка в пресі гри під
+              назвою «tick-tack-toe» з'явилася в 1884 році, але стосується «дитячої настільної гри, в яку грають на
+              дошці, та яка полягає у спробах із закритими очима поставити олівець на одному з чисел набору; попадання
+              зараховуються в очки». «Tic-tac-toe» можливо з'явилися від «tick-tack», старої версії назви гри в нарди,
+              вперше згаданої в 1558 році. Перейменування Noughts and crosses на Tic-tac-toe в США сталася в 20
+              столітті. У 1952 році, OXO (або Noughts and Crosses) для комп'ютера EDSAC стала однією з перших відомих
+              відео ігор. Гравець може грати в хрестики-нулики проти людини. 1975 року хрестики-нулики були також
+              використані студентами MIT, щоб продемонструвати обчислювальну потужність елементів Лего. Комп'ютер Лего,
+              зроблений з (майже) тільки Tinkertoys, вміє чудово грати в хрестики-нулики. Він в даний час експонується в
+              Музеї науки в Бостоні.
+            </p>
+          </details>
+        </div>
+      </section>
+      <section>
+        <div class="container game-container">
+          <h2 class="section-title">Міні-гра</h2>
+          <div class="section-game-wrapper">
+            <div class="game-field-wrapper">
+              <div class="game-cell" id="1" onclick="OnClickFunction(id)">
+                <img class="cross" src="./image/cross-close-svgrepo-com.svg" />
+                <img class="zero" src="./image/digit-zero-svgrepo-com.svg" />
+              </div>
+              <div class="game-cell" id="2" onclick="OnClickFunction(id)">
+                <img class="cross" src="./image/cross-close-svgrepo-com.svg" />
+                <img class="zero" src="./image/digit-zero-svgrepo-com.svg" />
+              </div>
+              <div class="game-cell" id="3" onclick="OnClickFunction(id)">
+                <img class="cross" src="./image/cross-close-svgrepo-com.svg" />
+                <img class="zero" src="./image/digit-zero-svgrepo-com.svg" />
+              </div>
+              <div class="game-cell" id="4" onclick="OnClickFunction(id)">
+                <img class="cross" src="./image/cross-close-svgrepo-com.svg" />
+                <img class="zero" src="./image/digit-zero-svgrepo-com.svg" />
+              </div>
+              <div class="game-cell" id="5" onclick="OnClickFunction(id)">
+                <img class="cross" src="./image/cross-close-svgrepo-com.svg" />
+                <img class="zero" src="./image/digit-zero-svgrepo-com.svg" />
+              </div>
+              <div class="game-cell" id="6" onclick="OnClickFunction(id)">
+                <img class="cross" src="./image/cross-close-svgrepo-com.svg" />
+                <img class="zero" src="./image/digit-zero-svgrepo-com.svg" />
+              </div>
+              <div class="game-cell" id="7" onclick="OnClickFunction(id)">
+                <img class="cross" src="./image/cross-close-svgrepo-com.svg" />
+                <img class="zero" src="./image/digit-zero-svgrepo-com.svg" />
+              </div>
+              <div class="game-cell" id="8" onclick="OnClickFunction(id)">
+                <img class="cross" src="./image/cross-close-svgrepo-com.svg" />
+                <img class="zero" src="./image/digit-zero-svgrepo-com.svg" />
+              </div>
+              <div class="game-cell" id="9" onclick="OnClickFunction(id)">
+                <img class="cross" src="./image/cross-close-svgrepo-com.svg" />
+                <img class="zero" src="./image/digit-zero-svgrepo-com.svg" />
+              </div>
+            </div>
+            <div class="root-game-wrapper">
+              <button class="game-start-button" onclick="onBtnClick()">Очистити поле</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container gallery-container" id="gallery">
+          <h2 class="section-title">Галерея</h2>
+          <div class="gallery-wrapper">
+            <img src="./image/1.jpg" alt="win game" />
+            <img src="./image/2.jpg" alt="wall game" />
+            <img src="./image/3.jpg" alt="paper game" />
+            <img src="./image/4.jpg" alt="wood game" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <h2 class="section-title">Напишіть мені</h2>
+          <p class="paragraph">
+            Якщо вам сподобалась розробка цього проекту, маєте пропозиції щодо покращення чи виправлення помилок, хочете
+            найняти мене на роботу, відправте свої дані та повідомлення через форму зворотного зв&#39;язку. Я
+            обов&#39;язково з вами зв&#39;яжусь для уточнення всіх деталей.
+          </p>
+          <form class="form">
+            <h3 class="title">Форма зворотного зв&#39;язку</h3>
+            <label for="name">Ім&#39;я:</label>
+            <input type="text" name="name" id="name" />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+            <label for="message" id="message">Повідомлення:</label>
+            <textarea id="message" name="message" cols="10" rows="5"></textarea>
+            <button type="submit">Відправити</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="container footer-container"><span>&copy; Вікторія Росовська 2024р.</span></footer>
+  </body>
+</html>
+<script src="./index.js"></script>
